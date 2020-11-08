@@ -3,7 +3,7 @@ import time
 
 from random_walker import random_walker
 
-tmax=1000
+tmax=100
 nmax=10000
 
 start=time.time()
