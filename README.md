@@ -6,9 +6,11 @@ Parallel computing uses multiple computing resources at once to accelerate compu
 
 This repository provides the basic examples of parallel programming in c++ and python for statistical physics community. I choose some examples in which the statistical physicist may face frequently. I suggest the useful template and examples for each problems with various languague (usually, c++ and python). 
 
-This repository will be slowly, but continuely updated. If you have comments or question on this repository, contact me <schwarzg1104@gmail.com>
+This repository will be slowly, but continuely updated. If you have comments or question on this repository, contact me 
 
-Helpful reference: [SamsungSDS](https://www.samsungsds.com/kr/story/1233713_4655.html)
+<schwarzg1104@gmail.com>
+
+Helpful reference to understand scheme briefly: [SamsungSDS](https://www.samsungsds.com/kr/story/1233713_4655.html)
 
 # Initiation
 This folder contains basic format of MPI, OpenMP, mpi4py
