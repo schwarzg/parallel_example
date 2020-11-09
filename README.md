@@ -29,15 +29,15 @@ Massage passing interface libraries:
 
 Simple examples, compile shell, running shells are included in this folder.
 
-###C
+### C
 Compile : mpicc -o (execute) (source) (links)   
 run : mpiexec -n (number of cores) (execute)   
 
-###C++
+### C++
 Compile : mpic++ -o (execute) (source) (links)   
 run : mpiexec -n (number of cores) (execute)   
 
-###Python
+### Python
 run : mpiexec -n (number of cores) python (execute)   
 
 # MPI_example
