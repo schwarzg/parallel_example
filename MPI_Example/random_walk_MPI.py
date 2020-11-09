@@ -9,7 +9,8 @@ nmax=10000
 start=time.time()
 
 #MPI start when mpi4py is imported
-import mpi4py as MPI
+from mpi4py import MPI
+
 comm = MPI.COMM_WORLD
 nproc = comm.Get_size()
 rank = comm.Get_rank()
@@ -25,6 +26,8 @@ for i in range(rank,nmax,nproc):
 	y_tr.append(y)
 
 end=time.time()
+MPI.Barrier()
+MPI.Finalize()
 print(end-start)
 '''
 	Plotting routines
