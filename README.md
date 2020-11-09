@@ -29,6 +29,17 @@ Massage passing interface libraries:
 
 Simple examples, compile shell, running shells are included in this folder.
 
+###C
+Compile : mpicc -o (execute) (source) (links)   
+run : mpiexec -n (number of cores) (execute)   
+
+###C++
+Compile : mpic++ -o (execute) (source) (links)   
+run : mpiexec -n (number of cores) (execute)   
+
+###Python
+run : mpiexec -n (number of cores) python (execute)   
+
 # MPI_example
 This folder contains examples of parallization using Message passing interface (MPI). 
 
