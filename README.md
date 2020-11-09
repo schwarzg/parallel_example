@@ -27,6 +27,7 @@ Massage passing interface libraries:
 
 [mpi4py](https://mpi4py.readthedocs.io/en/stable/)
 
+Simple examples, compile shell, running shells are included in this folder.
 
 # MPI_example
 This folder contains examples of parallization using Message passing interface (MPI). 
