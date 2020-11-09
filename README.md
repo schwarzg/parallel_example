@@ -13,7 +13,20 @@ This repository will be slowly, but continuely updated. If you have comments or 
 Helpful reference to understand scheme briefly: [SamsungSDS](https://www.samsungsds.com/kr/story/1233713_4655.html)
 
 # Initiation
-This folder contains basic format of MPI, OpenMP, mpi4py
+This folder contains basic format of parallization libraries.
+
+Massage passing interface libraries:
+
+(C/C++)
+
+[MPICH](https://www.mpich.org)
+
+[openMPI](https://www.open-mpi.org)
+
+(Python)
+
+[mpi4py](https://mpi4py.readthedocs.io/en/stable/)
+
 
 # MPI_example
 This folder contains examples of parallization using Message passing interface (MPI). 

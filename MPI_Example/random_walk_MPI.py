@@ -1,5 +1,4 @@
 import numpy as np
-import mpi4py as mpi
 import time
 
 from random_walker import random_walker
@@ -8,10 +7,17 @@ tmax=1000
 nmax=10000
 
 start=time.time()
+
+#MPI start when mpi4py is imported
+import mpi4py as MPI
+comm = MPI.COMM_WORLD
+nproc = comm.Get_size()
+rank = comm.Get_rank()
+
 x_tr=[]
 y_tr=[]
 rw=random_walker(tmax,seed=1)
-for i in range(nmax):
+for i in range(rank,nmax,nproc):
 	rw.reset()
 	rw.run()
 	x,y=rw.get_trajectory()	
