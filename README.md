@@ -5,8 +5,7 @@ This repository provides the basic examples of parallel programming in c++ and p
 
 # Introduction
 
-Helpful reference: [SamsungSDS][samsungsds]
-[samsungsds]: https://www.samsungsds.com/kr/story/1233713_4655.html
+Helpful reference: [SamsungSDS](https://www.samsungsds.com/kr/story/1233713_4655.html)
 
 # Initiation
 Basic format of MPI, OpenMP, mpi4py
