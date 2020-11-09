@@ -5,7 +5,7 @@ This repository provides the basic examples of parallel programming in c++ and p
 
 # Introduction
 
-Helpful reference: [SamsungSDS] [samsungsds]
+Helpful reference: [SamsungSDS][samsungsds]
 [samsungsds]: https://www.samsungsds.com/kr/story/1233713_4655.html
 
 # Initiation
