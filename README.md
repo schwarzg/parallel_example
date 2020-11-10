@@ -43,13 +43,12 @@ run : mpiexec -n (number of cores) python (execute)
 # MPI_example
 This folder contains examples of parallization using Message passing interface (MPI). 
 
-Sample example : two-dimensional random walk problem
-
-Parallelization type : data parallelize using MPI
+Sample example : two-dimensional random walk problem   
+Parallelization type : data parallelize using MPI   
 
 ### C++
-Compile : mpic++ -o random_walk_MPI.x random_walk_MPI.cpp
-run : mpiexec -n (number of cores) ./random_walk_MPI.x
+Compile : mpic++ -o random_walk_MPI.x random_walk_MPI.cpp   
+run : mpiexec -n (number of cores) ./random_walk_MPI.x   
 
 ### Python
 run : mpiexec -n (number of cores) python3 random_walk_MPI.py
