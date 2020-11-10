@@ -15,17 +15,30 @@ Helpful reference to understand scheme briefly: [SamsungSDS](https://www.samsung
 # Initiation
 This folder contains basic format of parallization libraries.
 
+### Install
+
 Massage passing interface libraries:
 
 (C/C++)
 
 [MPICH](https://www.mpich.org)
 
-[openMPI](https://www.open-mpi.org)
+[openMPI](https://www.open-mpi.org)  - recommand
+
+Linux
+
+	sudo apt-get install openmpi
+	sudo yum install openmpi
+
+Mac OS
+
+	brew install openmpi
 
 (Python)
 
 [mpi4py](https://mpi4py.readthedocs.io/en/stable/)
+
+	pip install mpi4py
 
 Simple examples, compile shell, running shells are included in this folder.
 
