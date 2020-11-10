@@ -47,4 +47,10 @@ Sample example : two-dimensional random walk problem
 
 Parallelization type : data parallelize using MPI
 
+### C++
+Compile : mpic++ -o random_walk_MPI.x random_walk_MPI.cpp
+run : mpiexec -n (number of cores) ./random_walk_MPI.x
+
+### Python
+run : mpiexec -n (number of cores) python3 random_walk_MPI.py
 
