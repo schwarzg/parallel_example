@@ -31,18 +31,25 @@ Simple examples, compile shell, running shells are included in this folder.
 
 ### C
 Compile
+
 	mpicc -o (execute) (source) (links)   
+
 Run 
+
 	mpiexec -n (number of cores) (execute)   
 
 ### C++
 Compile
+
 	mpic++ -o (execute) (source) (links)   
+
 Run
+
 	mpiexec -n (number of cores) (execute)   
 
 ### Python
 Run
+
 	 mpiexec -n (number of cores) python (execute)   
 
 # MPI_example
@@ -53,11 +60,15 @@ Parallelization type : data parallelize using MPI
 
 ### C++
 Compile
+
 	mpic++ -o random_walk_MPI.x random_walk_MPI.cpp   
+
 Run
+
 	mpiexec -n (number of cores) ./random_walk_MPI.x   
 
 ### Python
 Run
+
 	mpiexec -n (number of cores) python3 random_walk_MPI.py
 
