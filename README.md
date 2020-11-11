@@ -27,8 +27,7 @@ Massage passing interface libraries:
 
 Linux
 
-	sudo apt-get install openmpi
-	sudo yum install openmpi
+https://soodalnote.wordpress.com/2016/06/07/open-mpi-설치하기
 
 Mac OS
 
