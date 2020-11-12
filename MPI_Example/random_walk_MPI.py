@@ -26,7 +26,7 @@ for i in range(rank,nmax,nproc):
 	y_tr.append(y)
 
 end=time.time()
-MPI.Barrier()
+comm.Barrier()
 MPI.Finalize()
 print(end-start)
 '''
