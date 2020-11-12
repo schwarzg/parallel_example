@@ -1,9 +1,9 @@
 import numpy as np
 import time
-
+import matplotlib.pyplot as plt
 from random_walker import random_walker
 
-tmax=100
+tmax=1000
 nmax=10000
 
 start=time.time()
@@ -18,9 +18,10 @@ for i in range(nmax):
 	y_tr.append(y)
 
 end=time.time()
-print(end-start)
+print("Serial code takes ",end-start," seconds!")
 '''
 	Plotting routines
+'''
 import matplotlib.pyplot as plt
 for i in range(10):
 	plt.plot(x_tr[i],y_tr[i],lw=1)
@@ -28,4 +29,3 @@ plt.xlabel(r"$x$ position")
 plt.ylabel(r"$y$ position")
 #plt.savefig("Random_work_trajectories.png",dpi=300,bbox_inches='tight')
 plt.show()
-'''
