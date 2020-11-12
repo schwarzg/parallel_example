@@ -29,6 +29,8 @@ Linux
 
 https://soodalnote.wordpress.com/2016/06/07/open-mpi-설치하기
 
+	sudo apt-get install libopenmpi-dev
+
 Mac OS
 
 	brew install openmpi
