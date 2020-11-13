@@ -9,15 +9,16 @@ class random_walker:
 		self.t_now=0
 		self.x_tr[0]=x_ini
 		self.y_tr[0]=y_ini
-			
+	
+		'''		
 		if seed is None:
 			rng=np.random.default_rng()
 		else:
 			rng=np.random.default_rng(seed)
-		
 		xyseeds=rng.integers(2**31,size=2)
 		self.x_rng=np.random.default_rng(xyseeds[0])
 		self.y_rng=np.random.default_rng(xyseeds[1])
+		'''	
 		
 		return
 
@@ -38,10 +39,10 @@ class random_walker:
 			self.reset()
 		if t_max is None:
 			t_max=self.t_max
-		x_dis=self.x_rng.standard_normal(t_max-1)
-		y_dis=self.y_rng.standard_normal(t_max-1)
-		#x_dis=np.random.normal(size=t_max-1)
-		#y_dis=np.random.normal(size=t_max-1)
+		#x_dis=self.x_rng.standard_normal(t_max-1)
+		#y_dis=self.y_rng.standard_normal(t_max-1)
+		x_dis=np.random.normal(size=t_max-1)
+		y_dis=np.random.normal(size=t_max-1)
 		for i in range(t_max-1):
 			self.x_tr[self.t_now+1]=self.x_tr[self.t_now]+x_dis[self.t_now]
 			self.y_tr[self.t_now+1]=self.y_tr[self.t_now]+y_dis[self.t_now]
